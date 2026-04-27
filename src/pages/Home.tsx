@@ -26,6 +26,7 @@ export default function Home() {
   const [isZipping, setIsZipping] = useState(false);
   const [zipProgress, setZipProgress] = useState(0);
 
+
   // Ref to track if we should stop
   const stopRequested = useRef(false);
 
@@ -44,6 +45,7 @@ export default function Home() {
       alert("Please limit to fetching 200 records at a time to reduce server load.");
       return;
     }
+
 
     const delay = parseInt(delayStr) || 500;
 
