@@ -1,0 +1,6 @@
+{
+  "name": "Assam HS Batch Scraper",
+  "description": "A bulk result fetcher and spreadsheet compiler for Assam HS results.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
